@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Job Application</title>
+<style>
+input {
+text-transform:capitalize;
+}
+</style>
+</head>
+<body>
+<br>
+<br>
+<h1 align="center">Job Application</h1>
+<form>
+<center>
+Enter your Name:
+<input type="text" name="Name" size=30 required>
+<br>
+<br>
+Enter your Email:
+<input type="email" name="Email" size=30 required>
+<br>
+<br>
+Enter your Mobile No.:
+<input type="tel" id="phone" name="phone" size=1 value="+91" disabled>
+<input type="tel" id="phone" name="phone" size=20 maxlength=12 required>
+<br>
+<br>
+Submit your Resume:
+<input type="file" name="Resume" required>
+<br>
+<br>
+Gender:
+<input type="radio" name="Exercize" value="Male" required>Male
+<input type="radio" name="Exercize" value="Female">Female
+<br>
+<br>
+Which Positions would you like to apply for 
+<br>
+<br>
+<input type="checkbox" name="Type" value="Junior Web Dev">Junior Web Developer
+<input type="checkbox" name="Type" value="Intern">Intern
+<input type="checkbox" name="Type" value="Senior Dev">Senior Devloper
+<input type="checkbox" name="Type" value="UI Designer">UI Designer
+<input type="checkbox" name="Type" value="Tester">Tester
+<input type="checkbox" name="Type" value="Team Manager">Team Manager
+<input type="checkbox" name="Type" value="Junior Android Dev">Junior Android Developer
+<br>
+<br>
+Tell us a little about yourself:
+<br>
+<textarea rows=5 cols=50 required></textarea>
+<br>
+<br>
+How did you came to know about the Vacancy
+<select name="drop down">
+<option value="Newspaper">Newspaper</option>
+<option value="Social Media">Social Media</option>
+<option value="Website">Our Website</option>
+<option value="Word of Mouth">Word of Mouth</option>
+<option value="College">College Announcements</option>
+<option value="Othher">Other</option>
+</select>
+<br>
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</center>
+</form>
+</body>
+</html>
